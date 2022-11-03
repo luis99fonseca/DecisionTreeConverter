@@ -1,6 +1,6 @@
 # DecisionTreeConverter
 
-Module inspired by https://stackoverflow.com/a/39772170
+Module inspired by solution found in https://stackoverflow.com/a/39772170
 
 Given a DecisionTreeClassifier model (from SKLearn - https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), parses it to readable python3 or C code. In the case of C code, argument types must be manually written on the header.
 
