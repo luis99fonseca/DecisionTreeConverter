@@ -2,7 +2,7 @@
 
 Module inspired by solution found in https://stackoverflow.com/a/39772170
 
-Given a DecisionTreeClassifier model (from SKLearn - https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), parses it to readable python3 or C code. In the case of C code, argument types must be manually written on the header.
+Given a DecisionTreeClassifier model (from SKLearn - https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), parses it to readable python3 or C code. In the case of C code, argument types must be manually written on the header, after the convertion.
 
 Optionally, it is also possible to remove redundant conditions in the parse tree, as in (simplified):
 
